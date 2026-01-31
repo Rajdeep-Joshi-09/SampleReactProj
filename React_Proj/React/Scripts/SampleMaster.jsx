@@ -116,7 +116,7 @@
                     <input
                         name="mobile"
                         autoComplete="off"
-                        placeholder="Mobile Number"
+                        placeholder="Mobile Number (9999999999)"
                         value={formData.mobile}
                         onChange={handleChange}
                         className="w-full border rounded-lg px-3 py-2"
