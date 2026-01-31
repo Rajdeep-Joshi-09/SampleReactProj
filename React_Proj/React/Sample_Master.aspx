@@ -34,7 +34,7 @@
     
         <script type="text/babel">
             ReactDOM.render(
-                <SampleMasterWithBe />,
+                <SampleMaster />,
                 document.getElementById("root")
             );
         </script>

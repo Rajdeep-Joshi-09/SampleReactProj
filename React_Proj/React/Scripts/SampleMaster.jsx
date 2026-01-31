@@ -89,7 +89,7 @@
                     <input
                         name="name"
                         autoComplete="off"
-                        placeholder="Name"
+                        placeholder="Name Of Student"
                         value={formData.name}
                         onChange={handleChange}
                         className="w-full border rounded-lg px-3 py-2"
