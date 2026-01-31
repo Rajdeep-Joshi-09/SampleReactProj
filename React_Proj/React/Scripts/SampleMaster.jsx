@@ -82,7 +82,7 @@
             <div className="w-full max-w-md bg-white rounded-xl shadow-lg p-6">
 
                 <h2 className="text-2xl font-semibold text-center mb-6">
-                    Sample Master Form
+                    Student Form
                 </h2>
 
                 <div className="mb-4">
