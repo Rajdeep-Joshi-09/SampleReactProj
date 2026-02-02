@@ -29,12 +29,12 @@
         </form>
 
     
-        <script type="text/babel" src="/React/Scripts/SampleMaster.jsx"></script>
+        <script type="text/babel" src="/React/Scripts/StudentForm.jsx"></script>
 
     
         <script type="text/babel">
             ReactDOM.render(
-                <SampleMaster />,
+                <StudentForm />,
                 document.getElementById("root")
             );
         </script>

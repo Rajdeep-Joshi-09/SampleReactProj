@@ -80,12 +80,6 @@
     <Compile Include="React\Sample_Master.aspx.designer.cs">
       <DependentUpon>Sample_Master.aspx</DependentUpon>
     </Compile>
-    <Compile Include="React\Scripts\SampleMaster.jsx.cs">
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="React\Scripts\SampleMaster.jsx.designer.cs">
-      <DependentUpon>SampleMaster.jsx.cs</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

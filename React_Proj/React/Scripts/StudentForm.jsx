@@ -1,4 +1,4 @@
-﻿const SampleMaster = () => {
+﻿const StudentForm = () => {
 
     const [formData, setFormData] = React.useState({
         name: "",
@@ -22,7 +22,7 @@
         { field: "mobile", label: "Mobile Number", rules: ["required", "mobile"] }
     ];
 
-   
+
     const handleChange = (e) => {
         const { name, value, type, checked } = e.target;
 
@@ -97,7 +97,7 @@
                     {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}
                 </div>
 
-        
+
                 <div className="mb-4">
                     <input
                         type="number"
@@ -111,7 +111,7 @@
                     {errors.age && <p className="text-red-500 text-sm">{errors.age}</p>}
                 </div>
 
-           
+
                 <div className="mb-4">
                     <input
                         name="mobile"
@@ -124,7 +124,7 @@
                     {errors.mobile && <p className="text-red-500 text-sm">{errors.mobile}</p>}
                 </div>
 
-                
+
                 <div className="mb-4">
                     <select
                         name="category"
@@ -140,7 +140,7 @@
                     {errors.category && <p className="text-red-500 text-sm">{errors.category}</p>}
                 </div>
 
-                
+
                 <div className="mb-4">
                     <textarea
                         name="description"
@@ -153,7 +153,7 @@
                     {errors.description && <p className="text-red-500 text-sm">{errors.description}</p>}
                 </div>
 
-                
+
                 <div className="mb-4">
                     <label className="mr-4">
                         <input
@@ -174,7 +174,7 @@
                     {errors.gender && <p className="text-red-500 text-sm">{errors.gender}</p>}
                 </div>
 
-                
+
                 <div className="mb-4">
                     <label>
                         <input

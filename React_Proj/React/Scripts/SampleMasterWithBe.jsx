@@ -85,17 +85,17 @@
                     Sample Master Form
                 </h2>
 
-                <div className="mb-4">
-                    <input
-                        name="name"
-                        autoComplete="off"
-                        placeholder="Name"
-                        value={formData.name}
-                        onChange={handleChange}
-                        className="w-full border rounded-lg px-3 py-2"
-                    />
-                    {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}
-                </div>
+                {/*<div className="mb-4">*/}
+                {/*    <input*/}
+                {/*        name="name"*/}
+                {/*        autoComplete="off"*/}
+                {/*        placeholder="Name"*/}
+                {/*        value={formData.name}*/}
+                {/*        onChange={handleChange}*/}
+                {/*        className="w-full border rounded-lg px-3 py-2"*/}
+                {/*    />*/}
+                {/*    {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}*/}
+                {/*</div>*/}
 
 
                 <div className="mb-4">
